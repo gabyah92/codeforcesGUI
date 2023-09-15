@@ -21,4 +21,5 @@ Leave a star if you liked it. Follow me on Instagram : **[gabyah92](instagram.co
 
 USAGE : 
 - Download the latest release jar file **[here](https://github.com/gabyah92/codeforcesGUI/releases)**. 
-- Download and install Java **[here](https://www.java.com/en/download)**. 
+- Download and install Java **[here](https://www.java.com/en/download)**.
+- Run the jar file.
