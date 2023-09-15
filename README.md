@@ -4,9 +4,11 @@ Hello everyone!
 
 I have created this project overnight to scrape results from Codeforces Rounds for my batch in **CMRIT** and through my consultancy **Pyramid**.
 
-The first box contains an input for Codeforces round numbers. You can enter one or multiple round numbers separated by commas.
+The first input box contains an input for Codeforces round numbers. You can enter one or multiple round numbers separated by commas.
 
-The second box is optional, but if another Excel sheet is included, it will merge all user handles within the first box and the second one, generating a combined leaderboard.
+The second input box accepts tokens, which can be used to scrape results by multiple tokens. Useful when scraping results for a set of people having the same token name in their handle.
+
+The third box is optional, but if another Excel sheet is included, it will merge all user handles within the first box and the third one, generating a combined leaderboard.
 
 The Excel sheet will be generated in the same directory as the jar file.
 
