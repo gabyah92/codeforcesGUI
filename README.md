@@ -18,3 +18,7 @@ Since there can be rounds where scores are different, like the codeTon Competiti
 Please let me know if you have any questions or need further clarification.
 
 Leave a star if you liked it. Follow me on Instagram : **[gabyah92](instagram.com/gabyah92)**
+
+USAGE : 
+- Download the latest release jar file **[here](https://github.com/gabyah92/codeforcesGUI/releases)**. 
+- Download and install Java **[here](https://www.java.com/en/download)**. 
