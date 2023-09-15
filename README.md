@@ -1,5 +1,5 @@
 ### CODEFORCES LEADERBOARD APP
-
+![Image](https://user-images.githubusercontent.com/22296232/268352019-66b656df-4fc4-4194-81ac-c66a55941903.png)
 Hello everyone!
 
 I have created this project overnight to scrape results from Codeforces Rounds for my batch in **CMRIT** and through my consultancy **Pyramid**.
