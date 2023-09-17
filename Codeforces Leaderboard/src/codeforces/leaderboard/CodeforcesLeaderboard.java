@@ -456,4 +456,5 @@ public class CodeforcesLeaderboard  extends javax.swing.JFrame  {
             JOptionPane.showMessageDialog(null, "Something went wrong!", "Error", JOptionPane.ERROR_MESSAGE); 
         }
     }
-} 
+}
+
