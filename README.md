@@ -22,6 +22,6 @@ Please let me know if you have any questions or need further clarification.
 Leave a star if you liked it. Follow me on Instagram : **[gabyah92](instagram.com/gabyah92)**
 
 USAGE : 
-- Download the latest release zip file and extract **[here](https://github.com/gabyah92/codeforcesGUI/releases)**. 
 - Download and install Java **[here](https://www.java.com/en/download)**.
-- Run the jar file.
+- Download the latest release zip file and extract **[here](https://github.com/gabyah92/codeforcesGUI/releases)**. 
+- Run the Codeforces_Leaderboard.jar file in extracted folder.
