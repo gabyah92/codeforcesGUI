@@ -146,7 +146,7 @@ public class CodeforcesLeaderboard extends javax.swing.JFrame {
                         if (curr_leaderboard == null) {
                             curr_leaderboard = filterLeaderboard(leaderboard);
                         } else {
-                            curr_leaderboard = mergeLeaderboards(filterLeaderboard2(leaderboard, searchToken), curr_leaderboard);
+                            curr_leaderboard = mergeLeaderboards(filterLeaderboard(leaderboard), curr_leaderboard);
                         }
                     } catch (Exception p) {
                         JOptionPane.showMessageDialog(null, "InvalidSearchToken", "Error", JOptionPane.ERROR_MESSAGE);
@@ -350,28 +350,6 @@ public class CodeforcesLeaderboard extends javax.swing.JFrame {
         return handlePointsList;
     }
 
-    private List<Participant> filterLeaderboard2(List<Participant> leaderboard, String searchToken) {
-        List<Participant> arr = new ArrayList<>();
-        String arrr[] = searchToken.replace(" ", "").split(",");
-        HashSet<String> hs = new HashSet<>();
-        for (Participant k : leaderboard) {
-            for (String p : arrr) {
-                if (k.codeforcesId.toLowerCase().contains(p.toLowerCase())) {
-                    if (!hs.contains(k.codeforcesId.toLowerCase())) {
-                        Participant y = k;
-                        if (y.score <= 9) {
-                            y.score *= 1000;
-                        }
-                        arr.add(y);
-                        hs.add(k.codeforcesId.toLowerCase());
-                    }
-                    break;
-                }
-            }
-        }
-        return arr; // Placeholder
-    }
-
     private List<Participant> filterLeaderboard(List<Participant> leaderboard) {
         List<Participant> arr = new ArrayList<>();
         HashSet<String> hs = new HashSet<>();
@@ -408,7 +386,7 @@ public class CodeforcesLeaderboard extends javax.swing.JFrame {
                     JOptionPane.showMessageDialog(null, "Source Excel Sheet must have Codeforces_Id and Score Column!", "Error", JOptionPane.ERROR_MESSAGE);
                     return new ArrayList<>();
                 }
-
+                
                 if (rowIterator.hasNext()) {
                     rowIterator.next();
                 }
