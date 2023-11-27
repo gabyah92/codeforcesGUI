@@ -22,6 +22,6 @@ Please let me know if you have any questions or need further clarification.
 Leave a star if you liked it. Follow me on Instagram : **[gabyah92](instagram.com/gabyah92)**
 
 USAGE : 
-- Download and install Java **[here]([https://www.java.com/en/download](https://www.oracle.com/java/technologies/downloads/#jdk21-windows))**.
+- Download and install Java **[here](https://www.oracle.com/java/technologies/downloads/#jdk21-windows)**.
 - Download the latest release zip file and extract **[here](https://github.com/gabyah92/codeforcesGUI/releases)**. 
 - Run the Codeforces_Leaderboard.jar file in extracted folder.
